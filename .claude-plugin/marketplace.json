@@ -1,0 +1,24 @@
+{
+  "name": "synchestra",
+  "owner": {
+    "name": "Synchestra.io"
+  },
+  "plugins": [
+    {
+      "name": "cli",
+      "source": {
+        "source": "github",
+        "repo": "synchestra-io/ai-plugin-synchestra"
+      },
+      "description": "Synchestra CLI plugin: skills, commands, and hooks that teach AI agents how to use the synchestra CLI"
+    },
+    {
+      "name": "spec-driven-development",
+      "source": {
+        "source": "github",
+        "repo": "synchestra-io/ai-plugin-sdd"
+      },
+      "description": "Methodology skills for spec-driven development: specify, plan, build, verify, review, ship"
+    }
+  ]
+}
