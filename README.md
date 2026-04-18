@@ -13,7 +13,7 @@ Add this marketplace to Claude Code once:
 Then install any plugin from it:
 
 ```
-/plugin install cli@synchestra
+/plugin install synchestra-cli@synchestra
 /plugin install spec-driven-development@synchestra
 ```
 
@@ -21,10 +21,10 @@ Then install any plugin from it:
 
 | Plugin | Install | Repository |
 |---|---|---|
-| `cli` | `/plugin install cli@synchestra` | [ai-plugin-synchestra](https://github.com/synchestra-io/ai-plugin-synchestra) |
+| `synchestra-cli` | `/plugin install synchestra-cli@synchestra` | [ai-plugin-synchestra](https://github.com/synchestra-io/ai-plugin-synchestra) |
 | `spec-driven-development` | `/plugin install spec-driven-development@synchestra` | [ai-plugin-sdd](https://github.com/synchestra-io/ai-plugin-sdd) |
 
-### `cli`
+### `synchestra-cli`
 
 Wraps the [`synchestra` CLI](https://github.com/synchestra-io/synchestra) as agent skills, slash commands, and hooks. One skill per CLI command; token-efficient; progressively loaded. The natural install path after the CLI binary itself.
 

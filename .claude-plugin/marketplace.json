@@ -5,7 +5,7 @@
   },
   "plugins": [
     {
-      "name": "cli",
+      "name": "synchestra-cli",
       "source": {
         "source": "github",
         "repo": "synchestra-io/ai-plugin-synchestra"
