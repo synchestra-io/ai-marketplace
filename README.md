@@ -13,16 +13,16 @@ Add this marketplace to Claude Code once:
 Then install any plugin from it:
 
 ```
-/plugin install synchestra-cli@synchestra
-/plugin install spec-driven-development@synchestra
+/plugin install synchestra-cli@synchestra-io
+/plugin install spec-driven-development@synchestra-io
 ```
 
 ## Plugins
 
 | Plugin | Install | Repository |
 |---|---|---|
-| `synchestra-cli` | `/plugin install synchestra-cli@synchestra` | [ai-plugin-synchestra](https://github.com/synchestra-io/ai-plugin-synchestra) |
-| `spec-driven-development` | `/plugin install spec-driven-development@synchestra` | [ai-plugin-sdd](https://github.com/synchestra-io/ai-plugin-sdd) |
+| `synchestra-cli` | `/plugin install synchestra-cli@synchestra-io` | [ai-plugin-synchestra](https://github.com/synchestra-io/ai-plugin-synchestra) |
+| `spec-driven-development` | `/plugin install spec-driven-development@synchestra-io` | [ai-plugin-sdd](https://github.com/synchestra-io/ai-plugin-sdd) |
 
 ### `synchestra-cli`
 
