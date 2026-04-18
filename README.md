@@ -42,7 +42,7 @@ External plugins are not accepted into this marketplace at this time — it is r
 
 ## License
 
-Apache 2.0 — see [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE).
 
 ## Outstanding Questions
 
