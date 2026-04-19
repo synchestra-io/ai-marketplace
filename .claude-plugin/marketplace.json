@@ -13,12 +13,20 @@
       "description": "Synchestra CLI plugin: skills, commands, and hooks that teach AI agents how to use the synchestra CLI"
     },
     {
+      "name": "specscore-cli",
+      "source": {
+        "source": "github",
+        "repo": "synchestra-io/ai-plugin-specscore"
+      },
+      "description": "SpecScore CLI plugin: skills that teach AI agents how to use the specscore CLI for spec navigation, linting, and lifecycle operations"
+    },
+    {
       "name": "spec-driven-development",
       "source": {
         "source": "github",
         "repo": "synchestra-io/ai-plugin-sdd"
       },
-      "description": "Methodology skills for spec-driven development: specify, plan, build, verify, review, ship"
+      "description": "Methodology skills for spec-driven development: specify, plan, build, verify, review, ship. Depends on synchestra-cli and specscore-cli."
     }
   ]
 }
