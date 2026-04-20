@@ -7,7 +7,7 @@ Claude Code marketplace for plugins published by [Synchestra.io](https://synches
 Add this marketplace to Claude Code once:
 
 ```
-/plugin marketplace add https://github.com/synchestra-io/ai-marketplace
+/plugin marketplace add synchestra-io/ai-marketplace
 ```
 
 Then install any plugin from it:
