@@ -14,7 +14,7 @@ Then install any plugin from it:
 
 ```
 /plugin install synchestra-cli@synchestra-io
-/plugin install spec-driven-development@synchestra-io
+/plugin install spec-studio@synchestra-io
 ```
 
 ## Plugins
@@ -22,15 +22,20 @@ Then install any plugin from it:
 | Plugin | Install | Repository |
 |---|---|---|
 | `synchestra-cli` | `/plugin install synchestra-cli@synchestra-io` | [ai-plugin-synchestra](https://github.com/synchestra-io/ai-plugin-synchestra) |
-| `spec-driven-development` | `/plugin install spec-driven-development@synchestra-io` | [ai-plugin-sdd](https://github.com/synchestra-io/ai-plugin-sdd) |
+| `specscore-cli` | `/plugin install specscore-cli@synchestra-io` | [ai-plugin-specscore](https://github.com/synchestra-io/ai-plugin-specscore) |
+| `spec-studio` | `/plugin install spec-studio@synchestra-io` | [spec-studio](https://github.com/synchestra-io/spec-studio) |
 
 ### `synchestra-cli`
 
 Wraps the [`synchestra` CLI](https://github.com/synchestra-io/synchestra) as agent skills, slash commands, and hooks. One skill per CLI command; token-efficient; progressively loaded. The natural install path after the CLI binary itself.
 
-### `spec-driven-development`
+### `specscore-cli`
 
-Methodology skills for spec-driven development workflow — specify, plan, build, verify, review, ship. Independent of Synchestra itself; works alongside any spec tooling.
+Wraps the [`specscore` CLI](https://github.com/synchestra-io/specscore) as agent skills. Teaches AI agents how to use `specscore` for spec navigation, linting, and lifecycle operations. Pairs with `spec-studio` for the full authoring experience.
+
+### `spec-studio`
+
+AI skills for spec-driven development as a project-level studio — ideate, design, and (on the roadmap) plan, build, verify, recap, review, ship. Gates implementation on lint-clean SpecScore artifacts and user approval. Works standalone with Claude Code; pairs with Synchestra Hub for remote execution.
 
 ## Why a meta-marketplace
 
