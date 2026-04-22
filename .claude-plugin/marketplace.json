@@ -13,7 +13,7 @@
       "description": "Synchestra CLI plugin: skills, commands, and hooks that teach AI agents how to use the synchestra CLI"
     },
     {
-      "name": "specscore-cli",
+      "name": "specscore",
       "source": {
         "source": "github",
         "repo": "synchestra-io/ai-plugin-specscore"
