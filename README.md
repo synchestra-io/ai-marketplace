@@ -22,14 +22,14 @@ Then install any plugin from it:
 | Plugin | Install | Repository |
 |---|---|---|
 | `synchestra-cli` | `/plugin install synchestra-cli@synchestra-io` | [ai-plugin-synchestra](https://github.com/synchestra-io/ai-plugin-synchestra) |
-| `specscore-cli` | `/plugin install specscore-cli@synchestra-io` | [ai-plugin-specscore](https://github.com/synchestra-io/ai-plugin-specscore) |
+| `specscore` | `/plugin install specscore@synchestra-io` | [ai-plugin-specscore](https://github.com/synchestra-io/ai-plugin-specscore) |
 | `spec-studio` | `/plugin install spec-studio@synchestra-io` | [spec-studio](https://github.com/synchestra-io/spec-studio) |
 
 ### `synchestra-cli`
 
 Wraps the [`synchestra` CLI](https://github.com/synchestra-io/synchestra) as agent skills, slash commands, and hooks. One skill per CLI command; token-efficient; progressively loaded. The natural install path after the CLI binary itself.
 
-### `specscore-cli`
+### `specscore`
 
 Wraps the [`specscore` CLI](https://github.com/synchestra-io/specscore) as agent skills. Teaches AI agents how to use `specscore` for spec navigation, linting, and lifecycle operations. Pairs with `spec-studio` for the full authoring experience.
 
