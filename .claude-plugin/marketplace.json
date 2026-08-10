@@ -1,9 +1,18 @@
 {
   "name": "sneat-co",
   "owner": {
-    "name": "Sneat.co"
+    "name": "Sneat Co."
   },
+  "description": "First-party AI plugins for WB, Synchestra, inGitDB, and DataTug tooling.",
   "plugins": [
+    {
+      "name": "wb",
+      "source": {
+        "source": "github",
+        "repo": "sneat-dev/wb"
+      },
+      "description": "WB plugin: deterministic worktree lifecycle, exact-head CI, and dedicated merger workflows for AI agents."
+    },
     {
       "name": "synchestra",
       "source": {
